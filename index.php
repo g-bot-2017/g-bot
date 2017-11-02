@@ -1,2 +1,2 @@
 <?php
-echo "I am a bot";
+header( 'Location: https://www.freelancez.info/bot.php' );
