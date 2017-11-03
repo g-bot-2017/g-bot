@@ -22,8 +22,8 @@ if (!is_null($events['events'])) {
 				//'type' => 'text',
 				//'text' => $text
     				  'type' => 'image',
-   				  'originalContentUrl' => 'https://example.com/original.jpg',
-    				  'previewImageUrl' => 'https://example.com/preview.jpg'
+   				  'originalContentUrl' => 'https://i1.wp.com/saixiii.com/wp-content/uploads/2017/04/line-banner.png',
+    				  'previewImageUrl' => 'https://i1.wp.com/saixiii.com/wp-content/uploads/2017/04/line-banner.png'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
