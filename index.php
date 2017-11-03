@@ -19,8 +19,13 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				'type' => 'text',
-				'text' => $text
+				//'type' => 'text',
+				//'text' => $text
+				{
+    				  "type": "image",
+   				  "originalContentUrl": "https://example.com/original.jpg",
+    				  "previewImageUrl": "https://example.com/preview.jpg"
+				}
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
@@ -46,4 +51,3 @@ if (!is_null($events['events'])) {
 	}
 }
 echo "OK";
-
